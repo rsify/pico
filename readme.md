@@ -1,6 +1,6 @@
 <div align="center">
 <br>
-<img height="200px" src="media/pico-shadow.png">
+<img height="200px" src="https://github.com/gripeless/pico/blob/master/media/pico-shadow.png?raw=true">
 <h3>📸 Pico</h3>
 <p>Take browser screenshots in Javascript</p>
 <img src="https://img.shields.io/npm/v/@gripeless/pico" alt="npm">
@@ -13,18 +13,18 @@
 <br>
 
 <div>
-	<img width="50%" src="media/wikipedia-pico.png">
-	<img width="49%" src="media/wikipedia-real.png">
+	<img width="50%" src="https://github.com/gripeless/pico/blob/master/media/wikipedia-pico.png?raw=true">
+	<img width="49%" src="https://github.com/gripeless/pico/blob/master/media/wikipedia-real.png?raw=true">
 </div>
 
 <div>
-	<img width="50%" src="media/firebase-pico.png">
-	<img width="49%" src="media/firebase-real.png">
+	<img width="50%" src="https://github.com/gripeless/pico/blob/master/media/firebase-pico.png?raw=true">
+	<img width="49%" src="https://github.com/gripeless/pico/blob/master/media/firebase-real.png?raw=true">
 </div>
 
 <div>
-	<img width="50%" src="media/gripeless-pico.png">
-	<img width="49%" src="media/gripeless-real.png">
+	<img width="50%" src="https://github.com/gripeless/pico/blob/master/media/gripeless-pico.png?raw=true">
+	<img width="49%" src="https://github.com/gripeless/pico/blob/master/media/gripeless-real.png?raw=true">
 </div>
 
 <div align="center"><sub>(PNG output on the left · Original page on the right)</sub></div>
@@ -40,7 +40,7 @@
 <br>
 <br>
 <a href="https://usegripeless.com">
-<img src="media/gripeless.svg" height="45px" alt="Gripeless">
+<img src="https://github.com/gripeless/pico/blob/master/media/gripeless.svg" height="45px" alt="Gripeless">
 </a>
 <br>
 <sub><b>Gripeless is a free complaint solution for web apps</b></sub>
@@ -251,7 +251,7 @@ automatically updated whether you change any of the source code.
 3. With the opened browser, browse onto a website you want to test.
    You should see a browser action in your address bar:
 
-   ![Browser action in address bar](media/browser-action-address-bar.png)
+   ![Browser action in address bar](https://github.com/gripeless/pico/blob/master/media/browser-action-address-bar.png?raw=true)
 
    Click on the green puzzle icon to take a screenshot, a new tab should
    open with the output contents in SVG form.
