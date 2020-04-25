@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			#scroll-one {
+				overflow: scroll;
+
+				height: 400px;
+				width: 300px;
+				border: 2px solid blue;
+				margin-right: 40px;
+			}
+
+			#scroll-two {
+				overflow: scroll;
+
+				height: 400px;
+				width: 300px;
+				border: 2px solid blue;
+				position: relative;
+			}
+
+			.abs {
+				width: 50px;
+				height: 50px;
+				background-color: purple;
+				position: absolute;
+				top: 200px;
+				left: 100px;
+			}
+
+			.fill {
+				height: 200%;
+				width: 200%;
+				background-color: lightblue;
+				background: radial-gradient(ellipse at top left, lightgreen, magenta);
+			}
+
+			p {
+				font-size: 4rem;
+				border: 2px dashed orange;
+			}
+		</style>
+	</head>
+	<body>
+		<div style="display: flex">
+			<div id="scroll-one">
+				<p>Child 1</p>
+				<p>Child 2 - child 2</p>
+				<p>Child 3 - child 3</p>
+				<p>Child 4 - child 4</p>
+				<p>Child 5 - child 5</p>
+				<p>Child 6 - child 6</p>
+				<p>Child 7 - child 7</p>
+			</div>
+			<div id="scroll-two">
+				<div class="abs"></div>
+				<div class="fill"></div>
+			</div>
+		</div>
+		<script>
+			const one = document.querySelector('#scroll-one')
+			const two = document.querySelector('#scroll-two')
+
+			one.scroll(0, 250)
+			two.scroll(80, 80)
+		</script>
+		<script src="{{SCRIPT_SRC}}"></script>
+	</body>
+</html>

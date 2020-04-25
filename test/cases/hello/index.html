@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			body {
+				background-color: lightblue;
+			}
+
+			div {
+				font-size: 3rem;
+			}
+
+			div:before {
+				content: 'im just a pseudo element :( - :before';
+				font-size: 1rem;
+				top: 4rem;
+				position: absolute;
+			}
+
+			div:after {
+				content: 'me too! - :after';
+				font-size: 1rem;
+				top: 6rem;
+				position: absolute;
+			}
+
+			@media print and screen and (max-width: 500px) {
+				body {
+					background-color: red !important;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div>Hello pico!</div>
+		<p style="margin-top: 128px;">
+			ąęóżźć
+		</p>
+		<script src="{{SCRIPT_SRC}}"></script>
+	</body>
+</html>

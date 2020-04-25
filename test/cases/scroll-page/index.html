@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			html, body {
+				width: 200vw;
+				height: 200vh;
+				overflow: scroll;
+			}
+
+			body {
+				background: radial-gradient(ellipse at top left, blue, orange);
+				margin: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<script>
+			const html = document.querySelector('html')
+
+			const scrollX = ((html.scrollWidth - html.clientWidth) / 2)
+			const scrollY = ((html.scrollHeight - html.clientHeight) / 2)
+
+			window.scroll(scrollX, scrollY)
+		</script>
+		<script src="{{SCRIPT_SRC}}"></script>
+	</body>
+</html>

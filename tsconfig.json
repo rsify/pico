@@ -1,0 +1,16 @@
+{
+	"include": ["source"],
+	"compilerOptions": {
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"declaration": true,
+		"downlevelIteration": true,
+		"esModuleInterop": true,
+		"lib": ["esnext", "dom", "DOM.Iterable"],
+		"moduleResolution": "node",
+		"outDir": "dist",
+		"strict": true,
+		"target": "ES5",
+		"module": "ESNext"
+	}
+}

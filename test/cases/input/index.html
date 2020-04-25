@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			* {
+				color: black;
+			}
+
+			p {
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<p>type - checkbox:</p>
+		<div>
+			<label>
+				<input type="checkbox"/>
+				unchecked
+			</label>
+		</div>
+		<div>
+			<label>
+				<input type="checkbox" checked/>
+				checked via `checked` attribute
+			</label>
+		</div>
+		<div>
+			<label>
+				<input id="checkbox-checked" type="checkbox"/>
+				checked via javascript
+			</label>
+			<script>
+				document.querySelector('#checkbox-checked')
+					.checked = true
+			</script>
+		</div>
+		<p>type - file:</p>
+		<div>
+			empty input:
+			<input type="file"/>
+		</div>
+		<div>
+			&lt;input type="file"/&gt; with an actual file is not supported.
+		</div>
+		<p>type - number:</p>
+		<div>
+			value via `value` attribute:
+			<input value="100" type="number"/>
+		</div>
+		<div>
+			value via javascript:
+			<input id="input-number" type="number"/>
+			<script>
+				document.querySelector('#input-number').value = 100
+			</script>
+		</div>
+		<p>type - radio:</p>
+		<div>
+			checked via `value` attribute:
+			<input type="radio"/>
+			<input type="radio" checked/>
+			<input type="radio"/>
+		</div>
+		<div>
+			checked via javascript:
+			<input type="radio"/>
+			<input id="radio-checked" type="radio"/>
+			<input type="radio"/>
+			<script>
+				document.querySelector('#radio-checked')
+					.checked = true
+			</script>
+		</div>
+		<p>type - range:</p>
+		<div>
+			set via `value` attribute:
+			<input type="range" value="90"/>
+		</div>
+		<div>
+			set via javascript:
+			<input id="range" type="range"/>
+			<script>
+				document.querySelector('#range').value = 90
+			</script>
+		</div>
+		<p>type - text:</p>
+		<div>
+			set via `value` attribute:
+			<input type="text" value="hi :)"/>
+		</div>
+		<div>
+			set via javascript:
+			<input id="text" type="text"/>
+			<script>
+				document.querySelector('#text').value = "hello!"
+			</script>
+		</div>
+		<p>textarea:</p>
+		<div>
+			<div>set via inner text:</div>
+			<textarea>hey</textarea>
+		</div>
+		<div>
+			<div>set via javascript:</div>
+			<textarea id="textarea"></textarea>
+			<script>
+				document.querySelector('#textarea').value = 'hey'
+			</script>
+		</div>
+		<script src="{{SCRIPT_SRC}}"></script>
+	</body>
+</html>

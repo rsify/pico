@@ -1,0 +1,8 @@
+/* Taken and edited from Google Fonts */
+@font-face {
+	font-family: 'Pacifico';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('{{FONT_FILE_SRC}}') format('woff2');
+}

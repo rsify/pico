@@ -1,0 +1,5 @@
+@import "{{STYLE_LEVEL_3_SRC}}";
+
+div {
+	border-bottom: 4px solid blue;
+}

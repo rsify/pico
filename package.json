@@ -1,0 +1,65 @@
+{
+	"name": "@gripeless/pico",
+	"version": "0.0.0",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "del dist && tsc",
+		"build:watch": "tsc -w",
+		"dev": "parcel source/index.ts --port 23231 --no-hmr --no-cache --global Pico",
+		"dev:ext": "cd web-ext && web-ext run --firefox=nightly",
+		"test:interactive": "ts-node --project test/tsconfig.json test/repl.ts"
+	},
+	"dependencies": {
+		"fluture": "^12.2.0",
+		"fp-ts": "^2.5.3",
+		"fp-ts-fluture": "^0.6.5"
+	},
+	"devDependencies": {
+		"@types/cheerio": "^0.22.17",
+		"@types/cors": "^2.8.6",
+		"@types/express": "^4.17.3",
+		"@types/node": "^13.9.1",
+		"@types/pixelmatch": "^5.1.0",
+		"@types/react": "^16.9.23",
+		"@types/react-dom": "^16.9.5",
+		"@types/ws": "^7.2.3",
+		"ava": "^3.5.0",
+		"cheerio": "^1.0.0-rc.3",
+		"chokidar": "^3.3.1",
+		"cors": "^2.8.5",
+		"debounce-fn": "^4.0.0",
+		"del": "^5.1.0",
+		"del-cli": "^3.0.0",
+		"express": "^4.17.1",
+		"get-port": "^5.1.1",
+		"import-sort-style-module": "^6.0.0",
+		"nocache": "^2.1.0",
+		"open": "^7.0.3",
+		"parcel": "^1.12.4",
+		"parcel-bundler": "^1.12.4",
+		"pixelmatch": "^5.1.0",
+		"playwright": "^0.11.1",
+		"prettier": "^1.19.1",
+		"prettier-plugin-import-sort": "0.0.3",
+		"react": "^16.13.0",
+		"react-dom": "^16.13.0",
+		"tempy": "^0.5.0",
+		"ts-node": "^8.6.2",
+		"typescript": "^3.8.3",
+		"web-ext": "^4.1.0",
+		"ws": "^7.2.3"
+	},
+	"importSort": {
+		".ts": {
+			"style": "module"
+		}
+	},
+	"ava": {
+		"extensions": [
+			"ts"
+		],
+		"require": [
+			"ts-node/register"
+		]
+	}
+}

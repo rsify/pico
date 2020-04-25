@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			canvas {
+				border: 1px solid gray;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas></canvas>
+		<script>
+			const $canvas = document.querySelector('canvas')
+			const ctx = $canvas.getContext('2d')
+
+			const $two = document.createElement('canvas')
+			const ctx2 = $two.getContext('2d')
+			document.body.appendChild($two)
+
+			ctx.font = '24px sans-serif'
+			ctx.fillText('canvas-ception', 0, 24)
+
+			ctx2.drawImage($canvas,0,0)
+		</script>
+		<script src="{{SCRIPT_SRC}}"></script>
+	</body>
+</html>

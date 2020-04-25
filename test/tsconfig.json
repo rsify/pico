@@ -1,0 +1,16 @@
+{
+	"include": ["."],
+	"compilerOptions": {
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"declaration": true,
+		"esModuleInterop": true,
+		"jsx": "react",
+		"lib": ["esnext", "dom"],
+		"moduleResolution": "node",
+		"outDir": "dist",
+		"strict": true,
+		"typeRoots": ["../node_modules/@types"],
+		"target": "ES2018"
+	}
+}

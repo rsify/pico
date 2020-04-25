@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			/* We want to see orange in this test on viewport
+			   width 500px */
+			@media screen and (min-width: 600px) {
+				body {
+					background-color: red !important;
+				}
+			}
+
+			@media screen and (min-width: 200px) {
+				body {
+					background-color: orange;
+				}
+			}
+
+			body {
+				color: orange;
+			}
+		</style>
+	</head>
+	<body>
+		<div>This text should be invisible</div>
+		<script src="{{SCRIPT_SRC}}"></script>
+	</body>
+</html>

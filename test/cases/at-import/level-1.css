@@ -1,0 +1,5 @@
+@import "{{STYLE_LEVEL_2_SRC}}";
+
+div {
+	border-top: 4px solid red;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			p {
+				margin: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<p>basic shape:</p>
+		<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" stroke="red" fill="grey">
+			<circle cx="50" cy="50" r="40" />
+			<circle cx="150" cy="50" r="4" />
+
+			<svg viewBox="0 0 10 10" x="200" width="100">
+				<circle cx="5" cy="5" r="4" />
+			</svg>
+		</svg>
+		<p>icon view boxed (64x64px div):</p>
+		<div style="width: 64px; height: 64px">
+			<svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+			</svg>
+		</div>
+		<script src="{{SCRIPT_SRC}}"></script>
+	</body>
+</html>
