@@ -1,5 +1,8 @@
 {
 	"name": "@gripeless/pico",
+	"publishConfig": {
+		"access": "public"
+	},
 	"version": "0.0.0",
 	"main": "dist/index.js",
 	"scripts": {
@@ -7,8 +10,13 @@
 		"build:watch": "tsc -w",
 		"dev": "parcel source/index.ts --port 23231 --no-hmr --no-cache --global Pico",
 		"dev:ext": "cd web-ext && web-ext run --firefox=nightly",
+		"prepublishOnly": "npm run build",
 		"test:interactive": "ts-node --project test/tsconfig.json test/repl.ts"
 	},
+	"files": [
+		"dist",
+		"source"
+	],
 	"dependencies": {
 		"fluture": "^12.2.0",
 		"fp-ts": "^2.5.3",
