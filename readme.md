@@ -13,21 +13,21 @@
 <br>
 
 <div>
-	<img width="50%" src="https://github.com/gripeless/pico/blob/master/media/wikipedia-pico.png?raw=true">
 	<img width="49%" src="https://github.com/gripeless/pico/blob/master/media/wikipedia-real.png?raw=true">
+	<img width="50%" src="https://github.com/gripeless/pico/blob/master/media/wikipedia-pico.png?raw=true">
 </div>
 
 <div>
-	<img width="50%" src="https://github.com/gripeless/pico/blob/master/media/firebase-pico.png?raw=true">
 	<img width="49%" src="https://github.com/gripeless/pico/blob/master/media/firebase-real.png?raw=true">
+	<img width="50%" src="https://github.com/gripeless/pico/blob/master/media/firebase-pico.png?raw=true">
 </div>
 
 <div>
-	<img width="50%" src="https://github.com/gripeless/pico/blob/master/media/gripeless-pico.png?raw=true">
 	<img width="49%" src="https://github.com/gripeless/pico/blob/master/media/gripeless-real.png?raw=true">
+	<img width="50%" src="https://github.com/gripeless/pico/blob/master/media/gripeless-pico.png?raw=true">
 </div>
 
-<div align="center"><sub>(PNG output on the left · Original page on the right)</sub></div>
+<div align="center"><sub>(Original page on the left · PNG output on the right)</sub></div>
 
 <br>
 
