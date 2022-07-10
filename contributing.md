@@ -3,11 +3,6 @@
 Pico welcomes contributions from everyone, whether it's bug fixes, new
 features or typo fixes.
 
-If you're unsure about anything feel free to
-[email me](mailto:maciej@usegripeless.com) with any questions, I'll be happy
-to assist you.
-
-
 # Testing
 
 There are two ways to test Pico's output, one being the provided visual
@@ -40,9 +35,7 @@ automatically updated whether you change any of the source code.
    your day to day one.
 
 3. With the opened browser, browse onto a website you want to test.
-   You should see a browser action in your address bar:
-
-   ![Browser action in address bar](https://github.com/gripeless/pico/blob/master/media/browser-action-address-bar.png?raw=true)
+   You should see a browser action in your address bar.
 
    Click on the green puzzle icon to take a screenshot, a new tab should
    open with the output contents in SVG form.

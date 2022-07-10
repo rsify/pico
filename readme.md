@@ -33,29 +33,6 @@
 
 ---
 
-<div align="center">
-
-
-<sup>Development of this library is possible thanks to:</sup>
-<br>
-<br>
-<a href="https://usegripeless.com">
-<img src="https://github.com/gripeless/pico/blob/master/media/gripeless.svg" height="45px" alt="Gripeless">
-</a>
-<br>
-<sub><b>Gripeless is a free complaint solution for web apps</b></sub>
-<br>
-<sub>Let your users take screenshots of important issues, pipe them into your issue tracker<br> and let your users know when they're fixed, automatically.</sub>
-<br>
-<br>
-<sub>
-<a href="https://usegripeless.com">https://usegripeless.com</a>
-</sub>
-
-</div>
-
----
-
 
 # Goal
 
@@ -246,6 +223,4 @@ To the authors of the above code, thank you for your awesome work.
 
 # License
 
-MIT (c) 2020 Primitive Software
-
-https://usegripeless.com
+MIT
