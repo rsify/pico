@@ -38,7 +38,7 @@
 		"debounce-fn": "^4.0.0",
 		"del": "^5.1.0",
 		"del-cli": "^3.0.0",
-		"express": "^4.17.1",
+		"express": "^4.17.3",
 		"get-port": "^5.1.1",
 		"import-sort-style-module": "^6.0.0",
 		"nocache": "^2.1.0",
