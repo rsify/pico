@@ -31,7 +31,7 @@
 		"@types/react": "^16.9.23",
 		"@types/react-dom": "^16.9.5",
 		"@types/ws": "^7.2.3",
-		"ava": "^3.5.0",
+		"ava": "^5.2.0",
 		"cheerio": "^1.0.0-rc.3",
 		"chokidar": "^3.3.1",
 		"cors": "^2.8.5",
@@ -54,7 +54,7 @@
 		"tempy": "^0.5.0",
 		"ts-node": "^8.6.2",
 		"typescript": "^3.8.3",
-		"web-ext": "^4.1.0",
+		"web-ext": "^7.5.0",
 		"ws": "^7.2.3"
 	},
 	"importSort": {
